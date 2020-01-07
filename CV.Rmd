@@ -21,6 +21,9 @@ knitr::opts_chunk$set(echo = FALSE,
 library(vitae)
 library(tibble)
 library(magrittr)
+
+#source(file = "~/GithubRepos/CV/r/work.r")
+source(file = "~/GithubRepos/CV/r/edu.r")
 ```
 
 # About Me
@@ -41,16 +44,16 @@ tribble(
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where, why = detail)
 
-edu <- do.call("rbind",
-  rorcid::orcid_educations("0000-0001-6729-7695")$`0000-0001-6729-7695`$`affiliation-group`$summaries
-)
-edu %>%
-  detailed_entries(
-    what = `education-summary.role-title`,
-    when = glue::glue("{`education-summary.start-date.year.value`} - {`education-summary.end-date.year.value`}"),
-    with = `education-summary.organization.name`,
-    where = `education-summary.organization.address.city`
-  )
+# edu <- do.call("rbind",
+#   rorcid::orcid_educations("0000-0001-6729-7695")$`0000-0001-6729-7695`$`affiliation-group`$summaries
+# )
+# edu %>%
+#   detailed_entries(
+#     what = `education-summary.role-title`,
+#     when = glue::glue("{`education-summary.start-date.year.value`} - {`education-summary.end-date.year.value`}"),
+#     with = `education-summary.organization.name`,
+#     where = `education-summary.organization.address.city`
+#   )
 ```
 
 # Nobel Prizes
@@ -66,7 +69,6 @@ tribble(
     Year, 
     Desc
   )
-
 ```
 
 
