@@ -1,2 +1,4 @@
-test <- read.csv(file = here("data", "work.csv"), header = T, sep = ",") %>%
-    as_tibble()
+work <- here("data", "work.csv") %>% 
+    read_csv() %>% 
+        as.data.frame() %>% 
+            as_tibble()

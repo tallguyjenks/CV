@@ -11,6 +11,8 @@ github: tallguyjenks
 linkedin: bryanjenks
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 990000
+aboutme: "I have been writing production software in a variety of languages for over 3+ years for _California Correctional Health Care Services_. I have a deep driven passion for software, automation, and data science. This very CV was even compiled with code."
+docname: CV
 output: vitae::awesomecv
 ---
 
@@ -22,55 +24,38 @@ library(vitae)
 library(tibble)
 library(magrittr)
 library(here)
+library(readr)
 
-#source(file = here("r","work.r"))
+source(file = here("r","work.r"))
 source(file = here("r","edu.r"))
 ```
 
-# About Me
+# Employment
 
- * I have been writing production software in a variety of languages for over 3+ years for _CCHCS_
- * 
- * 
+```{r}
+
+work %>%
+  detailed_entries(
+    what = unit,
+    when = glue::glue("{startMonth} {startYear} / {endMonth} {endYear}",.na = ""),
+    with = title,
+    where = where,
+    why = detail
+  )
+```
 
 # Education
 
 ```{r}
 
-tribble(
-  ~ Degree, ~ Year, ~ Institution, ~ Where, ~ detail,
-  "Informal studies", "1889-91", "Flying University", "Warsaw, Poland", "because life is awesome",
-  "Master of Physics", "1893", "Sorbonne Université", "Paris, France", "beacause i was meant to live bitch",
-  "Master of Mathematics", "1894", "Sorbonne Université", "Paris, France", "because im a mutha fuckin boss"
-) %>% 
-  detailed_entries(Degree, Year, Institution, Where, why = detail)
-
-# edu <- do.call("rbind",
-#   rorcid::orcid_educations("0000-0001-6729-7695")$`0000-0001-6729-7695`$`affiliation-group`$summaries
-# )
-# edu %>%
-#   detailed_entries(
-#     what = `education-summary.role-title`,
-#     when = glue::glue("{`education-summary.start-date.year.value`} - {`education-summary.end-date.year.value`}"),
-#     with = `education-summary.organization.name`,
-#     where = `education-summary.organization.address.city`
-#   )
-```
-
-# Nobel Prizes
-
-```{r}
-tribble(
-  ~Year, ~Type, ~Desc,
-  1903, "Physics", "Awarded for her work on radioactivity with Pierre Curie and Henri Becquerel",
-  1911, "Chemistry", "Awarded for the discovery of radium and polonium"
-) %>% 
-  brief_entries(
-    glue::glue("Nobel Prize in {Type}"),
-    Year, 
-    Desc
+edu %>%
+  detailed_entries(
+    what = degree,
+    when = glue::glue("{startYear} / {endYear}",.na = ""),
+    with = inst,
+    where = where,
+    why = detail
   )
 ```
 
-
-
+# Skills
