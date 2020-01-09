@@ -38,7 +38,7 @@ work %>%
   detailed_entries(
     with = title,
     what = unit,
-    why = glue::glue("{detail} {details} {detailss} {detailsss}",.na = ""),
+    why = detail,
     when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
     where = where
   )
@@ -60,8 +60,6 @@ edu %>%
 
 ```
 
-\pagebreak
-
 # Skills
 
 ```{r}
@@ -73,6 +71,8 @@ skills %>%
   )
 
 ```
+
+\pagebreak
 
 # Honors
 
@@ -97,7 +97,7 @@ projects %>%
   detailed_entries(
     with = area,
     what = accomplishment,
-    why = glue::glue("{detail} {details} {detailss} {detailsss}",.na = ""),
+    why = detail,
     when = year,
     where = where
   )
