@@ -31,9 +31,9 @@ I utilize various other packages with `vitae` such as `here`, `tibble`, `readr`,
 
 With RStudio i read in my CSV's containing all my data in the main sections into data frames to be converted to tibbles, then using the `vitae` functions and `glue` string literals, i create the document itself.
 
-Data exists in in the `data/` directory and is processed via the `R` scripts in `r/` when those scripts are sourced by the main document in the main directory.
+Data exists in in the `data.r` file in the `r/` directory and is added to the CV when the script is sourced by the `RMarkdown` document in the main directory.
 
-The header portion of the document is comprised on `YAML`
+The header portion of the document is comprised in the `YAML` portion of the `RMarkdown` document.
 
 # TODO
 
