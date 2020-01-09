@@ -26,8 +26,8 @@ library(magrittr)
 library(here)
 library(readr)
 
-source(file = here("r","work.r"))
-source(file = here("r","edu.r"))
+source(file = here("r","data.r"))
+
 ```
 
 # Employment
@@ -36,12 +36,13 @@ source(file = here("r","edu.r"))
 
 work %>%
   detailed_entries(
-    what = unit,
-    when = glue::glue("{startMonth} {startYear} / {endMonth} {endYear}",.na = ""),
     with = title,
-    where = where,
-    why = detail
+    what = unit,
+    why = glue::glue("{detail} {details} {detailss} {detailsss}",.na = ""),
+    when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
+    where = where
   )
+
 ```
 
 # Education
@@ -50,12 +51,70 @@ work %>%
 
 edu %>%
   detailed_entries(
-    what = degree,
-    when = glue::glue("{startYear} / {endYear}",.na = ""),
     with = inst,
-    where = where,
-    why = detail
+    what = degree,
+    why = detail,
+    when = glue::glue("{startYear} --> {endYear}",.na = ""),
+    where = where
   )
+
 ```
 
+\pagebreak
+
 # Skills
+
+```{r}
+
+skills %>%
+  detailed_entries(
+    with = area,
+    what = skills
+  )
+
+```
+
+# Honors
+
+```{r}
+
+honors %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = year,
+    where = where
+  )
+
+```
+
+# Projects
+
+```{r}
+
+projects %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = glue::glue("{detail} {details} {detailss} {detailsss}",.na = ""),
+    when = year,
+    where = where
+  )
+
+```
+
+# Certifications
+
+```{r}
+
+certifications %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = year,
+    where = where
+  )
+
+```
