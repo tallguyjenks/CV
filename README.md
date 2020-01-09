@@ -1,6 +1,6 @@
-# My Data Driven CV
-
 ![](./img/cvPreview.png)
+
+# My Data Driven CV
 
 ## What
 
