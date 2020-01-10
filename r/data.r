@@ -21,7 +21,7 @@ certifications <- tribble(
 skills <- tribble(
     ~area, ~skills,
     "Programming Languages", "BASH, C, C#, CCL, DAX, JavaScript, Python, R, Rust, SQL, VBA",
-    "Markup Languages", "CSS, HTML, LaTeX, Markdown, RMarkdown, SAS",
+    "Markup Languages", "CSS, HTML, LaTeX, Markdown, RMarkdown, SASS",
     "Data Interchange Formats", "CSV, JSON, XML",
     "Version Control", "GIT",
     "Text Editors", "Discern Visual Developer, RStudio, SQL Server Management Studio, VIM, Visual Studio, Visual Studio Code",
