@@ -37,5 +37,5 @@ The header portion of the document is comprised in the `YAML` portion of the `RM
 
 # TODO
 
-- [ ] explore the utility of the `ymlthis` package for `R` function driven `YAML` creation.
+- [X] explore the utility of the `ymlthis` package for `R` function driven `YAML` creation.
 - [ ] Look at options to move away from the intermediary step of csv creation and maintainence. Maybe making an Orchid account and using the API to feed the CV.
