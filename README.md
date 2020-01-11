@@ -25,11 +25,11 @@ I needed a CV that i can easily update, gets out of my way, and is easily access
 
 ## How
 
-This document utilized **RMarkdown** and is compiled through pandoc.
+This document utilizes **RMarkdown** and is compiled through pandoc.
 
-I utilize various other packages with `vitae` such as `here`, `tibble`, `readr`, `glue`, and `magrittr` (for the pipe _`%>%`_)
+I use various other packages with `vitae` such as `here`, `tibble`, `glue`, and `magrittr` (for the pipe _`%>%`_)
 
-With RStudio i read in my CSV's containing all my data in the main sections into data frames to be converted to tibbles, then using the `vitae` functions and `glue` string literals, i create the document itself.
+With RStudio i read in my _tribbles_ contained in the `data.r` script containing all my data, then using the `vitae` functions and `glue` string literals, i create the document itself.
 
 Data exists in in the `data.r` file in the `r/` directory and is added to the CV when the script is sourced by the `RMarkdown` document in the main directory.
 
@@ -38,4 +38,4 @@ The header portion of the document is comprised in the `YAML` portion of the `RM
 # TODO
 
 - [X] explore the utility of the `ymlthis` package for `R` function driven `YAML` creation.
-- [ ] Look at options to move away from the intermediary step of csv creation and maintainence. Maybe making an Orchid account and using the API to feed the CV.
+- [ ] Look at options to move away from the intermediary step of tribble creation and maintainence. Maybe making an Orchid account and using the API to feed the CV.
