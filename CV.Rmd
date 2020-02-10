@@ -31,7 +31,7 @@ source(file = here("r","data.r"))
 
 # Employment
 
-```{r}
+```{r EMPLOYMENT}
 
 work %>%
   detailed_entries(
@@ -46,7 +46,7 @@ work %>%
 
 # Education
 
-```{r}
+```{r EDUCATION}
 
 edu %>%
   detailed_entries(
@@ -61,7 +61,7 @@ edu %>%
 
 # Skills
 
-```{r}
+```{r SKILLS}
 
 skills %>%
   detailed_entries(
@@ -75,7 +75,7 @@ skills %>%
 
 # Honors
 
-```{r}
+```{r HONORS}
 
 honors %>%
   detailed_entries(
@@ -90,7 +90,7 @@ honors %>%
 
 # Projects
 
-```{r}
+```{r PROJECTS}
 
 projects %>%
   detailed_entries(
@@ -105,7 +105,7 @@ projects %>%
 
 # Certifications
 
-```{r}
+```{r CERTIFICATIONS}
 
 certifications %>%
   detailed_entries(
