@@ -85,3 +85,8 @@ work <- tribble(
     "Office Assistant --- California Correctional Health Care Services", "Mule Creek State Prison", "September", 2015, "March", 2016, "Ione - California", "Managed created and filed various inmate Dental forms into charts for the entire inmate dental program at Mule Creek State Prison."
 )
 
+works <- tribble(
+    ~area, ~accomplishment, ~year, ~where, ~detail,
+    "Runes", "Convert a string of text characters to Elder Futhark Runes ", 2020-02-22, "https://github.com/tallguyjenks/runes", "Author and Maintainer",
+    "Runes", "Convert a string of text characters to Elder Futhark Runes ", 2020-02-22, "https://github.com/tallguyjenks/runes", "Released to CRAN",
+)
