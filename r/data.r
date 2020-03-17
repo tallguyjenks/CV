@@ -87,6 +87,6 @@ work <- tribble(
 
 works <- tribble(
     ~area, ~accomplishment, ~year, ~where, ~detail,
-    "Runes", "Convert a string of text characters to Elder Futhark Runes ", 2020-02-22, "https://github.com/tallguyjenks/runes", "Author and Maintainer",
-    "Runes", "Convert a string of text characters to Elder Futhark Runes ", 2020-02-22, "https://github.com/tallguyjenks/runes", "Released to CRAN",
+    "Runes", "Convert a string of text characters to Elder Futhark Runes ", "February 2020", "https://github.com/tallguyjenks/runes", "Author and Maintainer",
+    "Runes", "Convert a string of text characters to Elder Futhark Runes ", "February 2020", "https://github.com/tallguyjenks/runes", "Released to CRAN",
 )
