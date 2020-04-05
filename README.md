@@ -34,8 +34,3 @@ With RStudio i read in my _tribbles_ contained in the `data.r` script containing
 Data exists in in the `data.r` file in the `r/` directory and is added to the CV when the script is sourced by the `RMarkdown` document in the main directory.
 
 The header portion of the document is comprised in the `YAML` portion of the `RMarkdown` document.
-
-# TODO
-
-- [X] explore the utility of the `ymlthis` package for `R` function driven `YAML` creation.
-- [ ] Look at options to move away from the intermediary step of tribble creation and maintainence. Maybe making an Orchid account and using the API to feed the CV.
