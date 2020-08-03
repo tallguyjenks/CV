@@ -36,7 +36,7 @@ honors <- tribble(
 
 edu <- tribble(
     ~degree, ~startYear, ~endYear, ~inst, ~where, ~detail,
-    "Western Governors University", 2020, "Present", "Bachelors Data Analytics & Data Management", "Online",NA,
+    "Western Governors University", 2020, NA, "Bachelors Data Analytics & Data Management", "Online",NA,
     "American Council on Education - Statistics.com", 2019, 2019, "Statistics I & II", "Online",NA,
     "Cosumnes River College", 2012, 2015, "Associate of Art (A.A.) Physical Education Teaching and Coaching", "Sacramento - California", "Phi Theta Kappa Academic Honor Society",
     "Cosumnes River College", 2012, 2015, "Associate of Science (A.S.) Liberal Arts: Math and Science", "Sacramento - California", "Phi Theta Kappa Academic Honor Society",
@@ -52,7 +52,7 @@ work <- tribble(
     "Research Data Analyst II", "California Correctional Health Care Services", "October", 2019, "Present", NA, "Elk Grove - California", "I design and disseminate statistical reports and visualizations written with R and RMarkdown",
     "Research Data Analyst II", "California Correctional Health Care Services", "October", 2019, "Present", NA, "Elk Grove - California", "I create SQL queries to extract raw data from an enterprise wide data warehouse",
     "Research Data Analyst II", "California Correctional Health Care Services", "October", 2019, "Present", NA, "Elk Grove - California", "Using (HTML CSS/SASS JavaScript) as well as CCL/SQL,I draft stand alone webpages embedded in our Cerner Millenium medical software",
-    "Software Developer", "github.com/tallguyjenks", "May", 2019, "Present", NA, "Online", "LANGUAGES USED --- HTML, CSS, SASS, JavaScript, R, RMarkdown, SQL, CCL, Rust, C, VBA, Bash, Markdown, TeX",
+    "Software Developer", "github.com/tallguyjenks", "May", 2019, "Present", NA, "Online", "LANGUAGES USED --- HTML, CSS, SASS, JavaScript, R, RMarkdown, T-SQL, PL-SQL, CCL, VBA, Batch, Bash, Markdown, LaTeX, Groff/Troff",
     "Owner & Operator", "Norseman Leather Works", "May", 2015, "Present", NA, "Galt - California", "LANGUAGES USED --- R, RMarkdown",
     "Owner & Operator", "Norseman Leather Works", "May", 2015, "Present", NA, "Galt - California", "Create handmade leather goods for sale through online retail",
     "Owner & Operator", "Norseman Leather Works", "May", 2015, "Present", NA, "Galt - California", "Analyze Etsy sale csv data files with R and PowerBI to determine marketing and sale strategies",
