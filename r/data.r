@@ -20,9 +20,9 @@ certifications <- tribble(
 
 skills <- tribble(
     ~area, ~skills,
-    "Programming Languages", "BASH, C, C#, CCL, DAX, JavaScript, Python, R, Rust, SQL, VBA",
-    "Markup Languages", "CSS, HTML, LaTeX, Markdown, RMarkdown, SASS",
-    "Data Interchange Formats", "CSV, JSON, XML",
+    "Programming Languages", "BASH, CCL, DAX, JavaScript, Python, R, T-SQL, PL-SQL, VBA",
+    "Markup Languages", "CSS, HTML, LaTeX, Markdown, RMarkdown, SASS, Groff/Troff",
+    "Data Interchange Formats", "CSV, JSON, XML, Feather",
     "Version Control", "GIT",
     "Text Editors", "Discern Visual Developer, RStudio, SQL Server Management Studio, VIM, Visual Studio, Visual Studio Code",
     "Microsoft Office", "Excel, Outlook, OneNote, PowerBI, PowerPoint, Visio, Word"
@@ -36,6 +36,7 @@ honors <- tribble(
 
 edu <- tribble(
     ~degree, ~startYear, ~endYear, ~inst, ~where, ~detail,
+    "Western Governors University", 2020, "Present", "Bachelors Data Analytics & Data Management", "Online",NA,
     "American Council on Education - Statistics.com", 2019, 2019, "Statistics I & II", "Online",NA,
     "Cosumnes River College", 2012, 2015, "Associate of Art (A.A.) Physical Education Teaching and Coaching", "Sacramento - California", "Phi Theta Kappa Academic Honor Society",
     "Cosumnes River College", 2012, 2015, "Associate of Science (A.S.) Liberal Arts: Math and Science", "Sacramento - California", "Phi Theta Kappa Academic Honor Society",
