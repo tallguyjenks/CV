@@ -3,7 +3,7 @@ name: Bryan
 surname: Jenks
 position: "Research Data Anaylst II"
 address: "California Correctional Health Care Services (CCHCS)"
-profilepic: "./img/roundSelfieIcon.jpg"
+profilepic: "./img/me.jpg"
 www: bryanjenks.xyz
 email: "bryanjenks@protonmail.com"
 github: tallguyjenks
