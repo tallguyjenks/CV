@@ -28,16 +28,8 @@ packages <- c('vitae'     # The CV's LaTeX Template
              ,'here'      # Relative Filepaths
              ,'readr'     # Data Loading
             )
-
-# Install packages not yet installed
-installed_packages <- packages %in% rownames(installed.packages())
-if (any(installed_packages == FALSE)) {
-  install.packages(packages[!installed_packages])
-}
-
-# Packages loading
-lapply(packages, library, character.only = TRUE) %>%
-  invisible()
+            
+xfun::pkg_attach2(packages)
 
 source(file = here("r","data.r"))
 
