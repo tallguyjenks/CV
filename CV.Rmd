@@ -30,8 +30,13 @@ packages <- c('vitae'     # The CV's LaTeX Template
              ,'readr'     # Data Loading
              ,'glue'      # String Manipulation
             )
+<<<<<<< HEAD
 
 xfun::pkg_attach2(packages, message = FALSE)
+=======
+            
+xfun::pkg_attach2(packages)
+>>>>>>> 51a617fd3c4f319839c86bcb6f56602871ea7acd
 
 source(file = here("r","data.r"))
 
