@@ -47,6 +47,10 @@ edu <- tribble(
 
 work <- tribble(
     ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
+    "Information Technology Associate", "Covered California", "March", 2021, "Present", NA, "Sacramento - California", "LANGUAGES USED --- R, RMarkdown",
+    "Research Data Specialist I", "California State Water Resources Control Board", "January", 2021, "March", 2021, "Sacramento - California", "LANGUAGES USED --- R, RMarkdown",
+    "Research Data Specialist I", "California State Water Resources Control Board", "January", 2021, "March", 2021, "Sacramento - California", "I developmed data collection, structuring, and reporting systems for various water rights databases",
+    "Research Data Specialist I", "California State Water Resources Control Board", "January", 2021, "March", 2021, "Sacramento - California", "I developed and utilized research methodologies and techniques in the area of data collection and analysis",
     "Research Data Analyst II", "California Correctional Health Care Services", "October", 2019, "Present", NA, "Elk Grove - California", "LANGUAGES USED --- HTML, CSS, SASS, JavaScript, R, RMarkdown, SQL, CCL",
     "Research Data Analyst II", "California Correctional Health Care Services", "October", 2019, "Present", NA, "Elk Grove - California", "Client side Cerner Millenium Database Administrator",
     "Research Data Analyst II", "California Correctional Health Care Services", "October", 2019, "Present", NA, "Elk Grove - California", "I design and disseminate statistical reports and visualizations written with R and RMarkdown",
@@ -56,7 +60,7 @@ work <- tribble(
     "YouTuber","youtube.com/BryanJenksTech","September",2019,"Present",NA,"Online","I teach a variety of technology related topics ranging from programming languages, setting up development infrastructure, to tutorials for Programming Integrated Development Environments.",
     "YouTuber","youtube.com/BryanJenksTech","September",2019,"Present",NA,"Online","I also teach about tools for academics such as LaTeX, BibTeX reference management, reference managers, Zettelkasten note taking, The Obsidian Application, and practices for Personal Knowledge Management.",
     "YouTuber","youtube.com/BryanJenksTech","September",2019,"Present",NA,"Online","My Channel currently has a following of over 140 videos, 3,300 Subscribers, and 156,000 Views",
-    "Open Source Software Developer", "github.com/tallguyjenks", "May", 2019, "Present", NA, "Online", "LANGUAGES USED --- HTML, CSS, SASS, JavaScript, R, RMarkdown, T-SQL, PL-SQL, CCL, VBA, Batch, Bash, Markdown, LaTeX, Groff/Troff",
+    "Open Source Software Developer", "github.com/tallguyjenks", "May", 2019, "Present", NA, "GitHub.com", "LANGUAGES USED --- HTML, CSS, SASS, JavaScript, R, RMarkdown, T-SQL, PL-SQL, CCL, VBA, Batch, Bash, Markdown, LaTeX, Groff/Troff",
     "Owner & Operator", "Norseman Leather Works", "May", 2015, "Present", NA, "Galt - California", "LANGUAGES USED --- R, RMarkdown",
     "Owner & Operator", "Norseman Leather Works", "May", 2015, "Present", NA, "Galt - California", "Create handmade leather goods for sale through online retail",
     "Owner & Operator", "Norseman Leather Works", "May", 2015, "Present", NA, "Galt - California", "Analyze Etsy sale csv data files with R and PowerBI to determine marketing and sale strategies",
