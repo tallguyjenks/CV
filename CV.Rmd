@@ -67,8 +67,6 @@ edu %>%
 
 ```
 
-\pagebreak
-
 # Skills
 
 ```{r SKILLS}

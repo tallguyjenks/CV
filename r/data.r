@@ -20,10 +20,11 @@ certifications <- tribble(
 
 skills <- tribble(
     ~area, ~skills,
-    "Programming Languages", "BASH, CCL, DAX, JavaScript, Python, R, T-SQL, PL-SQL, VBA",
+    "Programming Languages", "BASH, Batch, CCL, DAX, JavaScript, Python, R, T-SQL, PL-SQL, VBA",
     "Markup Languages", "CSS, HTML, LaTeX, Markdown, RMarkdown, SASS, Groff/Troff",
     "Data Interchange Formats", "CSV, JSON, XML, Feather",
-    "Version Control", "GIT",
+    "Other Languages", "YAML",
+    "Version Control", "Git",
     "Text Editors", "Discern Visual Developer, RStudio, SQL Server Management Studio, VIM, Visual Studio, Visual Studio Code",
     "Microsoft Office", "Excel, Outlook, OneNote, PowerBI, PowerPoint, Visio, Word"
 )
@@ -47,7 +48,8 @@ edu <- tribble(
 
 work <- tribble(
     ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
-    "Information Technology Associate", "Covered California", "March", 2021, "Present", NA, "Sacramento - California", "LANGUAGES USED --- R, RMarkdown",
+    "Information Technology Associate", "Covered California", "March", 2021, "Present", NA, "Sacramento - California", "LANGUAGES USED --- T-SQL, Markdown, Python, YAML, HTML, Powershell, Bash, Batch",
+    "Information Technology Associate", "Covered California", "March", 2021, "Present", NA, "Sacramento - California", "TOOLS USED --- Git, VS Code, Visual Studio, Azure DevOps, SQL Server Management Studio",
     "Research Data Specialist I", "California State Water Resources Control Board", "January", 2021, "March", 2021, "Sacramento - California", "LANGUAGES USED --- R, RMarkdown",
     "Research Data Specialist I", "California State Water Resources Control Board", "January", 2021, "March", 2021, "Sacramento - California", "I developmed data collection, structuring, and reporting systems for various water rights databases",
     "Research Data Specialist I", "California State Water Resources Control Board", "January", 2021, "March", 2021, "Sacramento - California", "I developed and utilized research methodologies and techniques in the area of data collection and analysis",
