@@ -50,6 +50,7 @@ work <- tribble(
     ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
     "Information Technology Associate", "Covered California", "March", 2021, "Present", NA, "Sacramento - California", "LANGUAGES USED --- T-SQL, Markdown, Python, YAML, HTML, Powershell, Bash, Batch",
     "Information Technology Associate", "Covered California", "March", 2021, "Present", NA, "Sacramento - California", "TOOLS USED --- Git, VS Code, Visual Studio, Azure DevOps, SQL Server Management Studio",
+    "Information Technology Associate", "Covered California", "March", 2021, "Present", NA, "Sacramento - California", "Developed the Ticketer application to automate team ticket processing between databases, client machine, and Azure DevOps REST API.",
     "Research Data Specialist I", "California State Water Resources Control Board", "January", 2021, "March", 2021, "Sacramento - California", "LANGUAGES USED --- R, RMarkdown",
     "Research Data Specialist I", "California State Water Resources Control Board", "January", 2021, "March", 2021, "Sacramento - California", "I developmed data collection, structuring, and reporting systems for various water rights databases",
     "Research Data Specialist I", "California State Water Resources Control Board", "January", 2021, "March", 2021, "Sacramento - California", "I developed and utilized research methodologies and techniques in the area of data collection and analysis",
