@@ -1,13 +1,21 @@
 projects <- tribble(
     ~area, ~accomplishment, ~year, ~where, ~detail,
+    "MuleSoft Platform Implementation", "Covered California", 2024, "Covered California IT Data Team", "Implemented the MuleSoft Anypoint Platform for Covered California involving infrastructure and developer tooling such as CICD and GitHub based automation.",
     "Lean Six Sigma Green Belt --- Reception Center Intake Process", "California Correctional Health Care Services", 2019, "Region 1 Quality Management", "Completed a Lean Six Sigma Green Belt project on the reception center medical screening process at San Quentin State Prison improving compliance from 2% and a baseline capability aggregate of 29.96% compliance to 84% during the transition phase of the project through application of the lean 6 methodologies and tools. Scope of project affects 6 total state prisons with 3 more to be positively impacted by state wide changes resulting from this project",
     "Universal Data Scrubber", "California Correctional Health Care Services", 2018, "Region 1 Quality Management", "Creation of a Universal Data Scrubbing tool sent statewide to take most department SQL Report Server exports and turn them into raw data sets for Excel Analytics for end user staff"
 )
 
 certifications <- tribble(
     ~area, ~accomplishment, ~year, ~where, ~detail,
-    "Certified Lean Six Sigma Green Belt", NA, "", "", NA,
-    "Certified Lean Six Sigma White Belt", NA, "", "", NA,
+    "Udacity", "Data Analyst Nano Degree", NA, "", "Credential ID X5Q95GN4",
+    "AXELOS Global Best Practice", "IT Information Library Foundations Certification (ITIL)", NA, "", "Credential ID GR671374467BJ",
+    "CompTIA", NA, NA, "", "CompTIA A+",
+    "CompTIA", NA, NA, "", "CompTIA Data+",
+    "CompTIA", NA, NA, "", "CompTIA Project+",
+    "CompTIA", NA, NA, "", "CompTIA Network+",
+    "CompTIA", NA, NA, "", "CompTIA IT Operations Specialist (CIOS)",
+    "Lean Six Sigma", NA, NA, "", "Green Belt",
+    "Lean Six Sigma", NA, NA, "", "White Belt",
     "Microsoft Software", "Various Applications", "", "", "Microsoft Excel - 112",
     "Microsoft Software", "Various Applications", "", "", "Microsoft Word - 22",
     "Microsoft Software", "Various Applications", "", "", "Microsoft Outlook - 21",
@@ -37,20 +45,23 @@ honors <- tribble(
 
 edu <- tribble(
     ~degree, ~startYear, ~endYear, ~inst, ~where, ~detail,
-    "Western Governors University", 2020, NA, "Bachelors Data Analytics & Data Management", "Online",NA,
-    "American Council on Education - Statistics.com", 2019, 2019, "Statistics I & II", "Online",NA,
-    "Cosumnes River College", 2012, 2015, "Associate of Art (A.A.) Physical Education Teaching and Coaching", "Sacramento - California", "Phi Theta Kappa Academic Honor Society",
-    "Cosumnes River College", 2012, 2015, "Associate of Science (A.S.) Liberal Arts: Math and Science", "Sacramento - California", "Phi Theta Kappa Academic Honor Society",
-    "San Joaquin Delta College", 2011, 2011, "Pre-Calculus", "Stockton - California",NA,
-    "Galt High School", 2007, 2011, "Diploma", "Galt - California", "AP English Literature",
-    "Galt High School", 2007, 2011, "Diploma", "Galt - California", "AP US Government"
+    "Bachelors Data Analytics & Data Management", 2020, 2023, "Western Governors University", "Online", NA,
+    "Statistics I & II", 2019, 2019, "American Council on Education - Statistics.com", "Online", NA,
+    "Associate of Art (A.A.) Physical Education Teaching and Coaching", 2012, 2015, "Cosumnes River College", "Sacramento - California", "Phi Theta Kappa Academic Honor Society",
+    "Associate of Science (A.S.) Liberal Arts: Math and Science", 2012, 2015, "Cosumnes River College", "Sacramento - California", "Phi Theta Kappa Academic Honor Society",
+    "Pre-Calculus", 2011, 2011, "San Joaquin Delta College", "Stockton - California", NA,
+    "Diploma", 2007, 2011, "Galt High School", "Galt - California", "AP English Literature",
+    "Diploma", 2007, 2011, "Galt High School", "Galt - California", "AP US Government"
 )
 
 work <- tribble(
     ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
-    "Information Technology Specialist I", "Covered California", "March", 2022, "Present", NA, "Sacramento - California", "LANGUAGES USED --- T-SQL, Markdown, Python, YAML, HTML, Powershell, Bash, Batch",
-    "Information Technology Specialist I", "Covered California", "March", 2022, "Present", NA, "Sacramento - California", "TOOLS USED --- Git, VS Code, Visual Studio, Azure DevOps, SQL Server Management Studio",
-    "Information Technology Specialist I", "Covered California", "March", 2022, "Present", NA, "Sacramento - California", "Implemented RedGate Version control, and revamped the enterprise SQL Server and data processing environment.",
+    "Information Technology Specialist II", "Covered California", "August", 2023, "Present", NA, "Sacramento - California", "LANGUAGES USED --- T-SQL, Markdown, Python, YAML, HTML, Powershell, Bash, Batch, XML",
+    "Information Technology Specialist II", "Covered California", "August", 2023, "Present", NA, "Sacramento - California", "TOOLS USED --- Git, VS Code, Visual Studio, GitHub, SQL Server Management Studio, Anypoint Studio",
+    "Information Technology Specialist II", "Covered California", "August", 2023, "Present", NA, "Sacramento - California", "Implemented the MuleSoft Anypoint Platform for Covered California",
+    "Information Technology Specialist I", "Covered California", "March", 2022, "August", 2023, "Sacramento - California", "LANGUAGES USED --- T-SQL, Markdown, Python, YAML, HTML, Powershell, Bash, Batch, XML",
+    "Information Technology Specialist I", "Covered California", "March", 2022, "August", 2023, "Sacramento - California", "TOOLS USED --- Git, VS Code, Visual Studio, Azure DevOps, SQL Server Management Studio, Anypoint Studio",
+    "Information Technology Specialist I", "Covered California", "March", 2022, "August", 2023, "Sacramento - California", "Implemented RedGate Version control, and revamped the enterprise SQL Server and data processing environment.",
     "Information Technology Associate", "Covered California", "March", 2021, "March", 2022, "Sacramento - California", "LANGUAGES USED --- T-SQL, Markdown, Python, YAML, HTML, Powershell, Bash, Batch",
     "Information Technology Associate", "Covered California", "March", 2021, "March", 2022, "Sacramento - California", "TOOLS USED --- Git, VS Code, Visual Studio, Azure DevOps, SQL Server Management Studio",
     "Information Technology Associate", "Covered California", "March", 2021, "March", 2022, "Sacramento - California", "Developed the Ticketer application to automate team ticket processing between databases, client machine, and Azure DevOps REST API.",
@@ -62,15 +73,15 @@ work <- tribble(
     "Research Data Analyst II", "California Correctional Health Care Services", "October", 2019, "Present", NA, "Elk Grove - California", "I design and disseminate statistical reports and visualizations written with R and RMarkdown",
     "Research Data Analyst II", "California Correctional Health Care Services", "October", 2019, "Present", NA, "Elk Grove - California", "I create SQL queries to extract raw data from an enterprise wide data warehouse",
     "Research Data Analyst II", "California Correctional Health Care Services", "October", 2019, "Present", NA, "Elk Grove - California", "Using (HTML CSS/SASS JavaScript) as well as CCL/SQL,I draft stand alone webpages embedded in our Cerner Millenium medical software",
-    "YouTuber","youtube.com/BryanJenksTech","September",2019,"Present",NA,"YouTube.com","LANGUAGES & TOOLS USED --- HTML, CSS, SASS, JavaScript, R, RMarkdown, Bash, Awk, LaTeX, Git, Markdown, VimL",
-    "YouTuber","youtube.com/BryanJenksTech","September",2019,"Present",NA,"YouTube.com","I teach a variety of technology related topics ranging from programming languages, setting up development infrastructure, to tutorials for Programming Integrated Development Environments.",
-    "YouTuber","youtube.com/BryanJenksTech","September",2019,"Present",NA,"YouTube.com","I also teach about tools for academics such as LaTeX, BibTeX reference management, reference managers, Zettelkasten note taking, The Obsidian Application, and practices for Personal Knowledge Management.",
-    "YouTuber","youtube.com/BryanJenksTech","September",2019,"Present",NA,"YouTube.com","My Channel currently has a following of over 140 videos, 6,300 Subscribers, and 300,000 Views",
+    "YouTuber","youtube.com/BryanJenksTech", "September", 2019, "Present", NA, "YouTube.com", "LANGUAGES & TOOLS USED --- HTML, CSS, SASS, JavaScript, R, RMarkdown, Bash, Awk, LaTeX, Git, Markdown, VimL",
+    "YouTuber","youtube.com/BryanJenksTech", "September", 2019, "Present", NA, "YouTube.com", "I teach a variety of technology related topics ranging from programming languages, setting up development infrastructure, to tutorials for Programming Integrated Development Environments.",
+    "YouTuber","youtube.com/BryanJenksTech", "September", 2019, "Present", NA, "YouTube.com", "I also teach about tools for academics such as LaTeX, BibTeX reference management, reference managers, Zettelkasten note taking, The Obsidian Application, and practices for Personal Knowledge Management.",
+    "YouTuber","youtube.com/BryanJenksTech", "September", 2019, "Present", NA, "YouTube.com", "My Channel currently has a following of over 220 videos, 47,000 Subscribers, and 3.8 Million Views",
     "Open Source Software Developer", "github.com/tallguyjenks", "May", 2019, "Present", NA, "GitHub.com", "LANGUAGES USED --- HTML, CSS, SASS, JavaScript, R, RMarkdown, T-SQL, PL-SQL, CCL, VBA, Batch, Bash, Markdown, LaTeX, Groff/Troff",
-    "Owner & Operator", "Norseman Leather Works", "May", 2015, "Present", NA, "Galt - California", "LANGUAGES USED --- R, RMarkdown",
-    "Owner & Operator", "Norseman Leather Works", "May", 2015, "Present", NA, "Galt - California", "Create handmade leather goods for sale through online retail",
-    "Owner & Operator", "Norseman Leather Works", "May", 2015, "Present", NA, "Galt - California", "Analyze Etsy sale csv data files with R and PowerBI to determine marketing and sale strategies",
-    "Owner & Operator", "Norseman Leather Works", "May", 2015, "Present", NA, "Galt - California", "Utilize R Programming to analyze timeseries trends in sales revenue and expenses",
+    "Owner & Operator", "Norseman Leather Works", "May", 2015, "January", 2023, "Galt - California", "LANGUAGES USED --- R, RMarkdown",
+    "Owner & Operator", "Norseman Leather Works", "May", 2015, "January", 2023, "Galt - California", "Create handmade leather goods for sale through online retail",
+    "Owner & Operator", "Norseman Leather Works", "May", 2015, "January", 2023, "Galt - California", "Analyze Etsy sale csv data files with R and PowerBI to determine marketing and sale strategies",
+    "Owner & Operator", "Norseman Leather Works", "May", 2015, "January", 2023, "Galt - California", "Utilize R Programming to analyze timeseries trends in sales revenue and expenses",
     "Research Data Specialist I (A)", "California Correctional Health Care Services", "September", 2020, "November", 2020, "Elk Grove - California", "LANGUAGES USED --- HTML, CSS, SASS, JavaScript, R, RMarkdown, SQL, CCL",
     "Research Data Specialist I (A)", "California Correctional Health Care Services", "September", 2020, "November", 2020, "Elk Grove - California", "Client side Cerner Millenium Database Administrator",
     "Research Data Specialist I (A)", "California Correctional Health Care Services", "September", 2020, "November", 2020, "Elk Grove - California", "I design and disseminate statistical reports and visualizations written with R and RMarkdown",
@@ -108,5 +119,5 @@ work <- tribble(
 works <- tribble(
     ~area, ~accomplishment, ~year, ~where, ~detail,
     "Runes", "Convert a string of text characters to Elder Futhark Runes ", "February 2020", "https://github.com/tallguyjenks/runes", "Author and Maintainer",
-    "Runes", "Convert a string of text characters to Elder Futhark Runes ", "February 2020", "https://github.com/tallguyjenks/runes", "Released to CRAN",
+    "Runes", "Convert a string of text characters to Elder Futhark Runes ", "February 2020", "https://github.com/tallguyjenks/runes", "Released to CRAN"
 )
